@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> rejestracja</title>
+</head>
+
+<body>
+    <form method='GET'>
+        Imie: <input type="text" name='firstname'> <br>
+        Nazwisko : <input type="text" name=lastname'> <br>
+        Email : <input type="email" name='Email' required><br>
+        Hasło : <input type='password' name='password' min='5'> <br>
+        Urodzony : <input type='date' name='birthday'><br>
+        Płeć : <br>
+        <input type='radio' name='gender' value="Mezczyzna">Mezczyzna<br>
+        <input type='radio' name='gender' value="Kobieta">Kobieta<br>
+        Zwierzęta: <br>
+        <input type='checkbox' name='cat'> Cats <br>
+        <input type='checkbox' name=dog'> Dogs <br>
+        Cars: <br>
+        <select name="cars">
+            <!-- multiple jako atrybut to wybór wielu -->
+            <option value='Toyota' name='toyota'>Toyota</option>
+            <option value='Audi' name='audi'>Audi</option>
+        </select><br>
+        <input type="submit" value='Zarejestruj'>
+        <input type='reset'>
+    </form>
+</body>
+
+</html>
